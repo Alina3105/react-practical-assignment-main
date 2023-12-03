@@ -1,0 +1,17 @@
+.myBtn {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 35px;
+    font-family:'Neucha', sans-serif;
+    font-size: 14px;
+    color: white;
+    background: rgb(31,128,152);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.myBtn:hover {
+    background-color: rgb(2, 68, 84); 
+}

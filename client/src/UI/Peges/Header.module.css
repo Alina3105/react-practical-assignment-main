@@ -1,0 +1,27 @@
+.navBar {
+  border-bottom: 4px solid rgb(153, 217, 234);
+}
+
+.filter {
+  color: rgb(31, 128, 152);
+  text-decoration: none;
+  font-family: 'Neucha', sans-serif;
+}
+
+.clear_icon {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  background-color: white;
+  border: 0;
+  margin: 0;
+  padding: 0;
+
+}
+
+.imputGruop {
+  background-color: transparent;
+  border-right: none;
+}

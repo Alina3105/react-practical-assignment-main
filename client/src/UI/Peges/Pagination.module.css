@@ -1,0 +1,11 @@
+.page-item {
+  color: #333333;
+   background-color: #fff;
+   border: 1px solid #ddd;
+ }
+ 
+ .custom_active_page_item {
+    color: #fff;
+   background-color: #007bff; 
+   border: 1px solid #007bff;
+ }

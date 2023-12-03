@@ -1,0 +1,18 @@
+.containerT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.wellcom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:rgb(31,128,152);
+    font-family:'Neucha', sans-serif;
+}
+.custom-button{
+    font-family:'Neucha', sans-serif;
+}

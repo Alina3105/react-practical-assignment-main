@@ -1,0 +1,21 @@
+.box {
+    max-height: 120px;
+    overflow: auto;
+}
+
+.box_col {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.date {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.noCom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}

@@ -1,0 +1,114 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  align-items: flex-end;
+  border: 0;
+}
+
+.containerTw {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 100%;
+  background-color: aliceblue;
+}
+
+.like {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.labelButt {
+  height: 110px;
+  width: 110px;
+  border: 1px dashed rgb(199, 199, 199);
+  border-spacing: 13px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.post {
+  display: block;
+  margin: 0 auto;
+  min-width: 320px;
+  min-height: 320px;
+  max-width: 320px;
+  max-height: 320px;
+
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.dateC {
+  font-family: 'Neucha';
+  margin: 0;
+  padding-right: 1rem;
+}
+
+.lakes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  margin: 0;
+  padding-right: 1rem;
+}
+
+.comment {
+  border-bottom: solid 1px rgb(0, 0, 0, 0.1);
+  padding-top: 10px;
+  font-family: 'Neucha';
+}
+
+.btn-edit {
+  display: flex;
+  justify-content: center;
+  margin-left: 3rem;
+  border: 2px solid rgb(31, 128, 152);
+  padding: 5px;
+  border-radius: 15px;
+  background-color: rgb(57, 203, 240);
+  font-family: 'Neucha';
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+
+.custom-file-button:hover {
+  opacity: 1;
+}
+
+.font {
+  font-family: 'Neucha';
+}

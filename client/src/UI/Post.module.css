@@ -1,0 +1,6 @@
+.box {
+    width: 340px;
+    margin-bottom: 1rem;
+    min-height: 500px;
+    max-height: 700px;
+}
